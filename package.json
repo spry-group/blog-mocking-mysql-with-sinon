@@ -1,0 +1,17 @@
+{
+  "name": "Mock-Mysql-with-Sinon",
+  "version": "0.0.1",
+  "dependencies": {
+    "bluebird": "*",
+    "mysql": "*"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha UserRepositoryTest.js"
+  }
+}
